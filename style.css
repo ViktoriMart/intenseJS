@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+      background-color: red;
+      font-size: 2rem;
+  }
+  
+#name {
+    background-color: red;
+}
+
+.logoart {
+    width: 80%;
+}
+
+
+main {
+    background-color: rgb(204, 0, 255);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.ban {
+    width: 100%;
+}
+
+.products {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-jpg {
+    width: 10vw;
+    height: 10vw;
+}
+
+#root {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(218, 214, 4); 
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlinks {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px
+}
+
+html {       
+    font-size: 62.5%; 
+    }
+    
+    h2 {
+    font-size: 3vw;
+    }
